@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="ru.alasdair.cordova-plugin-lock" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>cordova-plugin-lock</name>
+    <engines>
+        <engine name="cordova" version="&gt;=3.0.0"/>
+    </engines>
     <js-module name="cordova-plugin-lock" src="www/pluginLock.js">
         <clobbers target="window.PluginLock" />
     </js-module>
